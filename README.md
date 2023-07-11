@@ -1,24 +1,21 @@
-# Getting Started with [Fastify-CLI](https://www.npmjs.com/package/fastify-cli)
+### ABOUT
+ Simple banking account app.
+ 
+ We have a schema define to validate our different entities (that simplify validation process )
 
-This project was bootstrapped with Fastify-CLI.
+ A suite of test to verified the app satisfy to requirements:
 
-## Available Scripts
+ * Account deposit,
+ * Account Withdrawal,
+ * Account Statement
+  
+### HOW TO TEST
 
-In the project directory, you can run:
+``` 
+ yarn test
+```
+### HOW TO RUN 
 
-### `npm run dev`
-
-To start the app in dev mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-### `npm start`
-
-For production mode
-
-### `npm run test`
-
-Run the test cases.
-
-## Learn More
-
-To learn Fastify, check out the [Fastify documentation](https://www.fastify.io/docs/latest/).
+``` 
+ node index.js
+```
