@@ -1,0 +1,17 @@
+{
+  "name": "bank-account-kata",
+  "version": "1.0.0",
+  "description": "Bank account kata with withdrawal and deposit feature",
+  "main": "index.js",
+  "author": "Willy Noubissie <willyjunior91@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "joi": "^17.9.2"
+  },
+  "devDependencies": {
+    "jest": "^29.6.1"
+  }
+}
