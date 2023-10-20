@@ -6,7 +6,8 @@
   "author": "Willy Noubissie <willyjunior91@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "test-coverage": "jest --coverage"
   },
   "dependencies": {
     "joi": "^17.9.2"
